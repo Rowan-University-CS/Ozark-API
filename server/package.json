@@ -1,0 +1,29 @@
+{
+  "name": "Ozark-API",
+  "version": "1.0.0",
+  "description": "The API for the hit crime drama streaming on Netflix, Ozark.",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ColeTistan/Ozark-API.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ColeTistan/Ozark-API/issues"
+  },
+  "homepage": "https://github.com/ColeTistan/Ozark-API#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "mongoose": "^6.1.8"
+  }
+}
